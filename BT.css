@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    color: aliceblue;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.border{
+    border: 1px solid ;
+}
+.sectionone{
+    background-image: url(./image/hero-bg.jpg);
+    background-size: 1000px 500px;
+    width: 1000px;
+    height: 500px;
+    padding: 10px 100px 80px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 2em;
+    font-family: 'Dancing Script', cursive;
+}
+.tabbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+   
+}
+.fix{
+    display: block;
+}
+.tabbar__menu{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+.tabbar__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 0.5em;
+}
+button{
+    color: aliceblue;
+    background-color: orange;
+    padding: 8px;
+    border-radius: 50px;
+    width: 120px;
+    font-size: 0.7em;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    gap: 20px;
+}
+h1{
+    padding: 0;
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+}
+p{
+    font-size: 0.6em;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    padding-left: 20px;
+}
+.dot{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+.color{
+    height: 15px;
+    width: 15px;
+    background-color: orange;
+    border-radius: 50%;
+}
+.bar{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.sectiontwo{
+    width: 1000px;
+    height: 500px;
+    background-color: rgb(52, 49, 49);
+    border: none;
+    padding: 50px 100px 50px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image{
+    width: 50%;
+    height: 100%;
+    background-image: url(./image/about-img.png);
+    background-size: 80% 100%;
+    background-repeat: no-repeat ;
+}
+
+
